@@ -1,7 +1,16 @@
 <web-app xlmns="http://java.sun.com/xml/ns/javaee" vesion="3.0">
     <display-name>Demo</display-name>
-
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.cibertec.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
 </web-app>
