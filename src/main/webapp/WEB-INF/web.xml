@@ -4,6 +4,7 @@
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 
+    <!--Codigo Opcional-->
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>com.cibertec.HelloServlet</servlet-class>
